@@ -12,13 +12,11 @@ public class Cliente {
     @GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
 	private String nome;
-	private int idade;
-	
+	private int idade;	
 	
 	public Cliente() {
 		
-	}
-	
+	}	
 	
 	public Cliente(Long id, String nome, int idade) {
 		super();
@@ -26,8 +24,6 @@ public class Cliente {
 		this.nome = nome;
 		this.idade = idade;
 	}
-
-
 
 	public Long getId() {
 		return id;
@@ -52,9 +48,6 @@ public class Cliente {
 	public void setIdade(int idade) {
 		this.idade = idade;
 	}
-	
-	
-	
-	
+		
 
 }
